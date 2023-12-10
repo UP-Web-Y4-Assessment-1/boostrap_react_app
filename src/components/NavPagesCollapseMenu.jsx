@@ -1,7 +1,7 @@
 import React from 'react'
 
 function NavPagesCollapseMenu() {
-  return (
+    return (
     <li className="nav-item">
                             <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                                 aria-expanded="true" aria-controls="collapseTwo">
@@ -16,7 +16,7 @@ function NavPagesCollapseMenu() {
                                 </div>
                             </div>
                         </li>
-  )
+    )
 }
 
 export default NavPagesCollapseMenu
