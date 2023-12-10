@@ -22,7 +22,7 @@ function NavAlerts() {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <div className="small text-gray-500">December 12, 2019</div>
+                                                    <div className="small text-gray-500">December 11, 2023</div>
                                                     <span className="font-weight-bold">A new monthly report is ready to download!</span>
                                                 </div>
                                             </a>
@@ -33,7 +33,7 @@ function NavAlerts() {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <div className="small text-gray-500">December 7, 2019</div>
+                                                    <div className="small text-gray-500">December 11, 20239</div>
                                                     $290.29 has been deposited into your account!
                                                 </div>
                                             </a>
@@ -44,7 +44,7 @@ function NavAlerts() {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <div className="small text-gray-500">December 2, 2019</div>
+                                                    <div className="small text-gray-500">December 11, 2023</div>
                                                     Spending Alert: We've noticed unusually high spending for your account.
                                                 </div>
                                             </a>
