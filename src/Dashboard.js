@@ -431,7 +431,6 @@ function Dashboard() {
                                         </div>
 
                                         {/* <!-- Color System --> */}
-
                                     </div>
 
                                     <div className="col-lg-6 mb-4">
@@ -454,6 +453,7 @@ function Dashboard() {
                                                     unDraw &rarr;</a>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
 
@@ -462,12 +462,11 @@ function Dashboard() {
 
                         </div>
                         {/* <!-- End of Main Content --> */}
-
                         {/* <!-- Footer --> */}
                         <footer className="sticky-footer bg-white">
                             <div className="container my-auto">
                                 <div className="copyright text-center my-auto">
-                                    <span>Copyright &copy; Your Website 2021</span>
+                                    <span>Copyright &copy; Your Website 2023</span>
                                 </div>
                             </div>
                         </footer>
