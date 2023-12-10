@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './Dashboard.css';
+import LineChat from './components/LineChat';
+import PieChart from './components/PieChart';
 
 function Dashboard() {
     const [style, setStyle] = useState("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion");
@@ -477,8 +479,8 @@ function Dashboard() {
                                             </div>
                                             {/* <!-- Card Body --> */}
                                             <div className="card-body">
-                                                <div className="chart-area">
-                                                    <canvas id="myAreaChart"></canvas>
+                                                <div className="pt-4 pb-2">
+                                                    <LineChat/>
                                                 </div>
                                             </div>
                                         </div>
@@ -508,8 +510,8 @@ function Dashboard() {
                                             </div>
                                             {/* <!-- Card Body --> */}
                                             <div className="card-body">
-                                                <div className="chart-pie pt-4 pb-2">
-                                                    <canvas id="myPieChart"></canvas>
+                                                <div className="pt-4 pb-2">
+                                                    <PieChart/>
                                                 </div>
                                                 <div className="mt-4 text-center small">
                                                     <span className="mr-2">
