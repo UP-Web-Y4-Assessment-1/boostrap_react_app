@@ -7,7 +7,7 @@ function Order() {
         <div className='p-5 bg-light '>
             <div className='bg-white rounded  p-4'>
                 <table className='table caption-top '>
-                    <caption className='text-black fs-4'>Recent Orders</caption>
+                    {/* <caption className='text-black fs-4'>Recent Orders</caption> */}
                     <thead>
                         <tr>
                             <th scope='col'>#</th>
